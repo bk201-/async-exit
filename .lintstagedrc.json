@@ -1,0 +1,12 @@
+{
+  "*.(js)": [
+    "prettier --write",
+    "eslint --fix",
+    "git add"
+  ],
+  "*.(ts)": [
+    "prettier --parser typescript --write",
+    "eslint --fix",
+    "git add"
+  ]
+}

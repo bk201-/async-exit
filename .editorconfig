@@ -13,3 +13,7 @@ trim_trailing_whitespace = true
 [{*.js,*.cjs,*.ts}]
 indent_size = 2
 tab_width = 2
+
+[*.md]
+indent_size = 2
+tab_width = 2
