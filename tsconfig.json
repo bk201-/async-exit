@@ -5,6 +5,7 @@
     "outDir": "./out",
     "rootDir": "./src",
     "allowJs": true,
+    "declaration": true,
     "sourceMap": true,
     "strict": true,
     "esModuleInterop": true,
@@ -15,6 +16,7 @@
   "exclude": [
     "node_modules",
     "out",
-    "dist"
+    "dist",
+    "*.config.js"
   ]
 }

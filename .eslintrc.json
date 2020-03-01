@@ -30,6 +30,8 @@
       "tabWidth": 2
     }],
     "prettier/prettier": "error",
-    "@typescript-eslint/ban-ts-ignore": 1
+    "@typescript-eslint/ban-ts-ignore": 1,
+    "@typescript-eslint/no-misused-promises": 1,
+    "@typescript-eslint/unbound-method": 1
   }
 }

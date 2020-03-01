@@ -4,7 +4,7 @@
   "description": "Asynchronous exit hooks",
   "author": "Dmitry Shilov",
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "clean": "npx rimraf -- ./out/* && npx rimraf -- ./dist/*",
     "compile": "npm run clean && npm run tsc && npm run rollup",
